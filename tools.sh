@@ -23,8 +23,8 @@ echo $JAVA_HOME
 sudo apt install nikto
 sudo apt update
 sudo apt upgrade
-
-
-
-
-
+sudo apt install ssh
+sudo systemctl enable ssh
+sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils
+sudo apt install xrdp 
+sudo systemctl status xrdp
